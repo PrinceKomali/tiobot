@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "node-abort-controller": "^3.0.1",
+    "node-fetch": "^2.6.1"
+  },
+  "name": "tiobot",
+  "version": "1.0.0",
+  "main": "tiobot.js",
+  "scripts": {
+    "run": "node tiobot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "description": ""
+}
