@@ -226,7 +226,10 @@ For example
             }).catch(e=>{
                 
                 if(e.toString().includes("AbortError:")) _message.edit(`\`The request took longer than ${TimeoutInteger} milliseconds\``);
-                else _message.edit("`An internal error has occurred`");
+                else {
+                    _message.edit("`An internal error has occurred`");
+                    console.log(e.stack);   
+                }
             })
             })
 
