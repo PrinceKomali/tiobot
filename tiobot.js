@@ -190,7 +190,7 @@ For example
                 let stdout = Output.join("\n");
                 if(stdout.length > 1500) stdout = stdout.substring(0, 1500) + "\n\n...";
                 _message.edit(stdout, {
-                    code: Language,
+                    code: "ansi",
                     embed: {
                         color: 0xdedede,
                         fields: [
